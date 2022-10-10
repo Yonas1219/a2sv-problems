@@ -1,3 +1,7 @@
+/**
+ * @param {number} n
+ * @return {string[]}
+ */
 var fizzBuzz = function(n) {
     let output = [];
     for(let i=1; i<=n; i++){
