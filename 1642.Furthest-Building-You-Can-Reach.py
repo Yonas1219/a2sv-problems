@@ -9,5 +9,5 @@ class Solution:
             if len(heap) > ladders:
                 min_h = heappop(heap)
                 bricks -= min_h
-            if bricks <= 0: return i
+            if bricks < 0: return i
         return N - 1
